@@ -1,11 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
+  background-color: var(--white-color);
 }
 
 :root {
-  --primary-color:#2e2f42;
-  --black-color: #434455;
+  --primary-color: #434455;
+  --second-color:#2e2f42;
   --blue-color: #4d5ae5;
   --dark-blue-color: #404bbf;
   --white-color: #ffffff;
@@ -13,17 +14,28 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 18px;u
   line-height: 1.17;
-  text-decoration: none;
-  text-transform: uppercase;
+  letter-spacing: 0.03em
   color: var(--blue-color);
 }
 
-  color: var(--primary-color);
+.header-logo .studio {
+  color: var(--second-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.link {
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.
+
+.list {
+  list-style: none;
 }
 
 .header-menu {
@@ -32,10 +44,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--second-color)
 }
 
 .header-menu .link:hover {
-  color: var(--black-color);
+  color: var(--dark-blue-color);
+}
+
+.header-menu .link:focus {
+  color: var(--dark-blue-color);
 }
 
 .header-menu .link:active {
@@ -48,7 +65,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--black-color);
+  color: var(--primary-color);
 }
 
 .header-adress:hover {
@@ -57,11 +74,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--blue-color);
+  color: var(--dark-blue-color:);
 }
 
 .hero-bkg {
-  background: var(--primary-color);
+  background: var(--second-color);
 }
 
 .hero {
@@ -71,7 +88,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
-  background: var(--primary-black-color);
+  background: var(--second-color);
 }
 
 .btn {
@@ -123,13 +140,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--second-color)
 }
 
 .benefits-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--black-color);
 }
 
 .our-team-bkg {
@@ -143,6 +160,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--second-color);
 }
 
 .section-h3 {
@@ -151,6 +169,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 .section-p {
@@ -158,7 +177,6 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--black-color);
 }
 
 .section-portf-h3 {
@@ -166,13 +184,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 .section-portf-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--black-color);
 }
 
 .footer-logo {
@@ -183,12 +201,12 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--blue-color);
-  background: var(--primary-color);
+  background: var(--second-color);
 }
 
 .footer-logo span {
   --dark-white-color
-  background: var(--primary-color);
+  background: var(--second-color);
 }
 
 .footer-p {
@@ -196,9 +214,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-white-color);
-  background: var(--primary-color);
+  background: var(--second-color);
 }
 
 .footer-bkg {
-  background: var(--primary-color);
+  background: var(--second-color);
 }
