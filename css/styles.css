@@ -48,11 +48,11 @@ text-decoration: none;
   color: var(--second-color)
 }
 
-.header-menu .link:hover {
+.link:hover {
   color: var(--dark-blue-color);
 }
 
-.header-menu .link:focus {
+.link:focus {
   color: var(--dark-blue-color);
 }
 
