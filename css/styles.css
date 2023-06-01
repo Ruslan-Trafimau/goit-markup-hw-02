@@ -46,11 +46,11 @@ body {
   color: var(--second-color);
 }
 
-.link:hover {
+.header-menu:hover {
   color: var(--dark-blue-color);
 }
 
-.link:focus {
+.header-menu:focus {
   color: var(--dark-blue-color);
 }
 
