@@ -45,14 +45,14 @@ text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--second-color)
+  color: var(--second-color);
 }
 
 .link:hover {
   color: var(--dark-blue-color);
 }
 
-.link:focus {
+.link:active {
   color: var(--dark-blue-color);
 }
 
