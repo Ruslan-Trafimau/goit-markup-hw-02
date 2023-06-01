@@ -52,13 +52,10 @@ text-decoration: none;
   color: var(--dark-blue-color);
 }
 
-.link:active {
+.link:focus {
   color: var(--dark-blue-color);
 }
 
-.header-menu .link:active {
-  color: var(--blue-color);
-}
 
 .header-adress {
   font-style: normal;
