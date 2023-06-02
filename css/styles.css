@@ -200,6 +200,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+.projects {
+
+}
+
+
 .section-h2 {
   font-weight: 700;
   font-size: 36px;
@@ -225,6 +230,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+
+.our-team {
+  background-color: var(--dark-white-color);
+}
+
+.our-team-images-bkg {
+  background-color: var(--white-color);
+}
+
 
 .section-portf-h3 {
   font-weight: 500;
