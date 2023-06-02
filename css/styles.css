@@ -149,6 +149,10 @@ body {
   background: var(--dark-white-color);
 }
 
+.our-team-images-bkg {
+  background: var(--white-color);
+}
+
 .section-h2 {
   font-weight: 700;
   font-size: 36px;
@@ -190,19 +194,19 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-decoration: none;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: var(--blue-color);
   background: var(--second-color);
 }
 
-.footer-logo span {
-  background: var(--second-color);
+.footer-logo .studio {
+  color: var(--dark-white-color);
 }
+
 
 .footer-p {
   font-size: 16px;
