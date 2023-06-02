@@ -1,9 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--primary-color);
-  background-color: var(--white-color);
-}
-
 :root {
   --primary-color: #434455;
   --second-color:#2e2f42;
@@ -11,6 +5,12 @@ body {
   --dark-blue-color: #404bbf;
   --white-color: #ffffff;
   --dark-white-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--white-color);
 }
 
 .link {
@@ -177,7 +177,16 @@ body {
   border-radius: 4px;
 }
 
-.benefits-h3 {
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -185,18 +194,10 @@ body {
   color: var(--second-color)
 }
 
-.benefits-p {
+.benefits-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.our-team-bkg {
-  background: var(--dark-white-color);
-}
-
-.our-team-images-bkg {
-  background-color: var(--white-color);
 }
 
 .section-h2 {
@@ -238,6 +239,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
