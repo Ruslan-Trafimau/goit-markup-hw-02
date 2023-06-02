@@ -150,7 +150,7 @@ body {
 }
 
 .our-team-images-bkg {
-  background: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .section-h2 {
