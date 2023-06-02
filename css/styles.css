@@ -87,7 +87,7 @@ body {
   background: var(--second-color);
 }
 
-.btn {
+.btn-idex {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -102,7 +102,22 @@ body {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--blue-color);
+  background-color: var(--dark-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-portfolio:hover {
   font-family: inherit
   font-weight: 600;
   font-size: 16px;
@@ -117,7 +132,7 @@ body {
   border-radius: 4px;
 }
 
-.btn:focus {
+.btn-portfolio:focus {
   font-family: inherit
   font-weight: 600;
   font-size: 16px;
