@@ -195,7 +195,6 @@ body {
 
 }
 
-
 .section-h_two {
   font-weight: 700;
   font-size: 36px;
@@ -230,6 +229,9 @@ body {
   background-color: var(--white-color);
 }
 
+.our-team-images-bkg {
+  background-color: var(--white-color);
+}
 
 .section-portf-h_two {
   font-weight: 500;
